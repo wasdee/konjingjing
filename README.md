@@ -12,6 +12,7 @@ $ pip install konjingjing
 from konjingjing import verify_id
 
 assert verify_id('1112034563562') # true
+assert verify_id('1112034563563') == False # false, fail checksum
 assert verify_id('11120345635') == False # false digit is less than 13
 assert verify_id('1112034563s62') == False # false mix with alpha
 ```
