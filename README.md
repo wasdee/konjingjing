@@ -1,6 +1,8 @@
 # konjingjing
 A hyper-fast Python module for validating Thai Citizen Card ID written in Rust.
 
+The library name, 'kon-jing-jing' (คนจริงจริง) means 'real person' in Thai.
+
 ## Get Started
 ```bash
 $ pip install konjingjing
